@@ -1,0 +1,95 @@
+* {
+	font-family: 'Arial', sans-serif;
+}
+
+#name {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 40px 10px 40px 10px;
+	float: left;
+
+}
+
+nav {
+	float:right;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+
+li{
+	float: left;
+	padding: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header {
+	display: inline-block;
+	background-color: #ffffff;
+	border-color:#cccccc ;
+	margin: 0px 0px 0px 20px;
+	font-family: 'Georgia', serif;
+	}
+
+#info {
+	overflow: auto;
+	background-color: #ccc;
+	padding: 15px;
+}
+
+#content {
+	background-color: #ffffff;
+	position: relative;
+}
+
+.section {
+}
+
+#connect, #aboutme {
+	background-color:white;
+}
+
+#aboutme, #portfolio {
+	overflow: auto;
+	float:left;
+	padding: 10px;
+	width: 330px;
+	text-align: left;
+}
+
+#connect {
+	float:right;
+	position: absolute;
+	left: 380px ;
+	padding: 15px;
+	align-content: center;
+	text-align: center;
+}
+
+img {
+	width: 100px;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+#connect img{
+	width: 50px;
+}
+
+footer {
+	background-color: #666666;
+	position: relative;
+	top: 10px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.clearfix {
+	overflow: auto;
+}
