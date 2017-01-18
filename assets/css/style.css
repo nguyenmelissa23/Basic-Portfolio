@@ -1,26 +1,41 @@
 * {
+
+}
+
+body {
+	margin: 0px;
+	background-color: #ccc;
+	background-image: url("bgwood.jpg") ;
 	font-family: 'Arial', sans-serif;
+	font-color: #777777;
 }
 
 #name {
 	background-color: #4aaaa5;
 	color: white;
-	padding: 40px 10px 40px 10px;
+	padding: 22px;
+	height: 30px;
 	float: left;
-
 }
 
 nav {
-	float:right;
-	margin-right: 5px;
-	margin-top: 15px;
+	float: right;
 }
 
 li{
 	float: left;
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	list-style: none;
+	border-left: solid 2px #ccc;
+}
+
+#navlast{
+	padding-right: 0px;
+}
+
+#navfirst {
+	border-left: #ffffff;
 }
 
 a{
@@ -28,46 +43,52 @@ a{
 }
 
 header {
-	display: inline-block;
 	background-color: #ffffff;
-	border-color:#cccccc ;
-	margin: 0px 0px 0px 20px;
 	font-family: 'Georgia', serif;
-	}
+	width: 100%;
+	margin: 0 auto;
+	border: solid 1.5px #cccccc;
+}
+
+#head {
+	width: 960px;
+	margin: 0 auto;
+}
 
 #info {
 	overflow: auto;
-	background-color: #ccc;
-	padding: 15px;
+	padding: 30px;
+	margin: 0 auto;
+	width: 960px;
 }
 
 #content {
-	background-color: #ffffff;
-	position: relative;
+	;
 }
 
-.section {
-}
-
-#connect, #aboutme {
-	background-color:white;
-}
-
-#aboutme, #portfolio {
-	overflow: auto;
-	float:left;
-	padding: 10px;
-	width: 330px;
+#contact, #aboutme, #portfolio {
+	padding: 15px;
 	text-align: left;
+	background-color:white;
+	width: 650px;
+	border: solid 1.5px #dddddd;
+	margin: 0 auto;
+	float: left;
 }
 
 #connect {
-	float:right;
-	position: absolute;
-	left: 380px ;
 	padding: 15px;
 	align-content: center;
 	text-align: center;
+	background-color:white;
+	margin: 0 auto;
+	float: right;
+	border: solid 1.5px #dddddd;
+}
+
+.position{
+	display: inline-block;
+	vertical-align: top;
 }
 
 img {
@@ -80,6 +101,11 @@ img {
 	width: 50px;
 }
 
+#msgbox{
+	width: 500px;
+	height: 100px;
+}
+
 footer {
 	background-color: #666666;
 	position: relative;
@@ -88,8 +114,24 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 12px;
+	border-top: solid 5px #4aaaa5;
+	clear: both;
 }
 
 .clearfix {
 	overflow: auto;
+}
+
+#name {
+	margin: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.imgsize {
+	width: 170px;
+	background: gray;
+	margin-right: 10px;
 }

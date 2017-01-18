@@ -3,34 +3,48 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link type="text/css" href="assets/css/reset.css">
 </head>
 <body>
 	<div id="content">
-		<header>	
-			<h1 id="name">Melissa Nguyen</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+		<header>
+			<div id="head">
+				<h1 id="name">Melissa Nguyen</h1>
+				<nav>
+					<ul>
+						<li id="navfirst"><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li id="navlast"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</div>
 		</header>
-		<div id="info">	
-			<h2>Contact</h2>
-			<form>
-				Name <br>
-				<input type="text" name="name"> <br>
-				Email <br>
-				<input type="text" name="email"> <br>
-				Message <br>
-				<input type="text" name="message"> <br>
-				<button type="radio"> Submit</button>
-			</form>
-		</div>
-	</div>
+			<div id="info">		
+				<div id="contact">	
+					<h2>Contact</h2>
+					<form>
+						Name <br>
+						<input type="text" name="name" placeholder="Name">
+						<br><br>
+						Email <br>
+						<input type="text" name="email" placeholder="Email"> 
+						<br><br>
+						Message <br>
+						<input type="text" name="message" id="msgbox" >
+						<br><br>
+						<button type="radio"> Submit</button>
+					</form>
+				</div>			
+				<div id="connect" class="position">
+					<h4>Connect with me</h4>
+					<a href="https://github.com/nguyenmelissa23" target="_blank"><img src="assets/images/github.png"/></a>
+					<a href="http://stackoverflow.com/cv/nguyenmelissa23" target="_blank"><img src="assets/images/stackoverflow.png"/></a>					<a href="https://www.linkedin.com/in/nguyenmelissa23" target="_blank"><img src="assets/images/linkedin.png"/></a>
+				</div>
+			</div>
+		</main>
 		<footer>
-			<p>Copyright 2017 Melissa Nguyen</p>
+			<p>&#169 Copyright 2017 Melissa Nguyen</p>
 		</footer>
 	</div>
 </body>

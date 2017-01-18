@@ -3,38 +3,39 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link type="text/css" href="assets/css/reset.css">
 </head>
 <body>
 	<div id="content">
-		<header>	
-			<h1 id="name">Melissa Nguyen</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+		<header>
+			<div id="head">
+				<h1 id="name">Melissa Nguyen</h1>
+				<nav>
+					<ul>
+						<li id="navfirst"><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li id="navlast"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</div>
 		</header>
 		<div id="info">		
-			<section>
-				<div id="aboutme" class="clearfix">
-					<h2>About Me</h2>
-					<img src="assets/images/profile.jpg.jpg"/>
-					<p>placeholder placeholder placeholder placeholderplaceholderplaceholder placeholderplaceholderplaceholder placeholderplaceholder placeholderplaceholderplaceholderplaceholder placeholderplaceholderplaceholder placeholderplaceholderplaceholder placeholderplaceholder</p>
-				</div>
-			</section>
-			<section>	
-				<div id="connect">
-					<h4>Connect with me</h4>
-					<a href="https://github.com/nguyenmelissa23" target="_blank"><img src="assets/images/github.png"/></a>
-					<a href="http://stackoverflow.com/cv/nguyenmelissa23" target="_blank"><img src="assets/images/stackoverflow.png"/></a>
-					<a href="https://www.linkedin.com/in/nguyenmelissa23" target="_blank"><img src="assets/images/linkedin.png"/></a>
-				</div>
-			</section>
+			<div id="aboutme" class="clearfix position">
+				<h2>About Me</h2>
+				<img src="assets/images/profile.jpg.jpg"/>
+				<p>This homework assignment has been very interesting. I did most of the requirements for the homework for the first two days and I thought "That wasn't so bad!". And then I went to office hours. Couple of hours later, I was in the middle of "it works but I don't know why" and "it is broken but I don't know why".</p>
+				<p>But I did not give up. It was not an easy journey. It was a series of debugging and deleting everything because the approaches just were not quite right. I am still in the middle of this assignment and it is roughtly 11 hours before it is due so I'd better get to it. Wish me luck! </p>
+			</div>
+			<div id="connect" class="position">
+				<h4>Connect with me</h4>
+				<a href="https://github.com/nguyenmelissa23" target="_blank"><img src="assets/images/github.png"/></a>
+				<a href="http://stackoverflow.com/cv/nguyenmelissa23" target="_blank"><img src="assets/images/stackoverflow.png"/></a>					<a href="https://www.linkedin.com/in/nguyenmelissa23" target="_blank"><img src="assets/images/linkedin.png"/></a>
+			</div>
+			<div class="clear"></div>
 		</div>
 		<footer>
-			<p>Copyright 2017 Melissa Nguyen</p>
+			<p>&#169 Copyright 2017 Melissa Nguyen</p>
 		</footer>
 	</div>
 </body>
