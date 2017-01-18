@@ -86,6 +86,11 @@ header {
 	border: solid 1.5px #dddddd;
 }
 
+#link {
+	border-top: solid 3px #cccccc;
+	padding-top: 22px;
+	margin-top: 28px;
+}
 .position{
 	display: inline-block;
 	vertical-align: top;
