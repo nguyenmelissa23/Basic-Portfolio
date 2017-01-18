@@ -103,7 +103,7 @@ img {
 
 #msgbox{
 	width: 500px;
-	height: 100px;
+	height: 50px;
 }
 
 footer {
@@ -131,7 +131,70 @@ footer {
 }
 
 .imgsize {
-	width: 170px;
+	width: 193px;
 	background: gray;
-	margin-right: 10px;
+	margin-right: 22px;
+	height: 150px;
+}
+
+
+#maininfo {
+	border-top: solid 3px #cccccc;
+	padding-top: 20px;
+}
+
+
+
+#codepenweb {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+#codepenweb h3 {
+	background-color: #4aaaa5;
+	position: absolute;
+	left: 15px;
+	top: 73px;
+	padding: 10px;
+	border: 1px solid #fff;
+	width: 130px;
+	color: #fff;
+	margin: 5px;
+	text-align: center;
+}
+
+#scratch {
+	position: relative;
+	width: 100%;
+}
+
+#scratch h3 {
+	background-color: #4aaaa5;
+	position: absolute;
+	left: 231px;
+	top: 73px;
+	padding: 10px;
+	border: 1px solid #fff;
+	width: 130px;
+	color: #fff;
+	margin: 5px;
+}
+
+#codepenport {
+	position: relative;
+	width: 100%;
+}
+
+#codepenport h3 {
+	background-color: #4aaaa5;
+	position: absolute;
+	left: 445px;
+	top: 73px;
+	padding: 10px;
+	border: 1px solid #fff;
+	width: 130px;
+	color: #fff;
+	margin: 5px;
+	text-align: center;
 }
