@@ -13,13 +13,15 @@ body {
 #name {
 	background-color: #4aaaa5;
 	color: white;
-	padding: 22px;
+	padding: 20px 20px 30px 20px;
 	height: 30px;
 	float: left;
+	margin: 0px;
 }
 
 nav {
 	float: right;
+	margin-top: 22px;
 }
 
 li{
@@ -40,6 +42,7 @@ li{
 
 a{
 	text-decoration: none;
+	color:#606163;
 }
 
 header {
@@ -74,6 +77,9 @@ header {
 	border: solid 1.5px #dddddd;
 	margin: 0 auto;
 	float: left;
+	color:#606163;
+	letter-spacing: 0.3px;
+	line-height: 20px;
 }
 
 #connect {
@@ -89,7 +95,7 @@ header {
 #link {
 	border-top: solid 3px #cccccc;
 	padding-top: 22px;
-	margin-top: 28px;
+	margin-top: 21px;
 }
 .position{
 	display: inline-block;
@@ -106,29 +112,29 @@ img {
 	width: 50px;
 }
 
-#msgbox{
-	width: 500px;
-	height: 50px;
-}
-
 footer {
 	background-color: #666666;
-	position: relative;
-	top: 10px;
 	padding: 20px;
 	color: white;
 	text-align: center;
 	font-size: 12px;
 	border-top: solid 5px #4aaaa5;
 	clear: both;
+	margin-top: 122px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
+.push {
+	height: 50px;
+}
+
+.content {
+
+}
 .clearfix {
 	overflow: auto;
-}
-
-#name {
-	margin: 0px;
 }
 
 .clear {
@@ -148,8 +154,6 @@ footer {
 	padding-top: 20px;
 }
 
-
-
 #codepenweb {
 	position: relative;
 	width: 100%;
@@ -159,11 +163,11 @@ footer {
 #codepenweb h3 {
 	background-color: #4aaaa5;
 	position: absolute;
-	left: 15px;
+	left: -1px;
 	top: 73px;
 	padding: 10px;
 	border: 1px solid #fff;
-	width: 130px;
+	width: 164px;
 	color: #fff;
 	margin: 5px;
 	text-align: center;
@@ -177,11 +181,11 @@ footer {
 #scratch h3 {
 	background-color: #4aaaa5;
 	position: absolute;
-	left: 231px;
+	left: 213px;
 	top: 73px;
 	padding: 10px;
 	border: 1px solid #fff;
-	width: 130px;
+	width: 164px;
 	color: #fff;
 	margin: 5px;
 }
@@ -194,12 +198,40 @@ footer {
 #codepenport h3 {
 	background-color: #4aaaa5;
 	position: absolute;
-	left: 445px;
+	left: 428px;
 	top: 73px;
 	padding: 10px;
 	border: 1px solid #fff;
-	width: 130px;
+	width: 164px;
 	color: #fff;
 	margin: 5px;
 	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+	padding-bottom: 15px;
+	color: #4aaaa5;
+}
+
+h3 {
+	font-size: 25px;
+	color: #4aaaa5;
+}
+
+button {
+	background: #4aaaa5;
+	border: none;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+textarea {
+	font-family: 'Arial', sans-serif;
+	width: 300px;
+	height: 100px;
 }
